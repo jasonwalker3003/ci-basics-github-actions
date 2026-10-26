@@ -8,7 +8,7 @@ class HelloControllerTests {
 
     @Test
     void homePageSaysHello() {
-        assertEquals("Hello from my first Java build\n", new HelloController().hello());
+        assertEquals("Hello from my CI pipeline\n", new HelloController().hello());
     }
 
 }
